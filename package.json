@@ -1,0 +1,16 @@
+{
+  "name": "job-notifier",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "setup": "bun run src/setup.ts"
+  },
+  "dependencies": {
+    "puppeteer-core": "^22.0.0",
+    "node-html-parser": "^6.1.13",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1"
+  }
+}
